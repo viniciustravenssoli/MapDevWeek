@@ -10,21 +10,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet"/>
-    <link
-      rel="shortcut icon" href="src/imagens/pokebola.png" type="image/x-icon"/>
+    <link rel="shortcut icon" href="src/imagens/pokebola.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
   </head>
   <body>
-    <header>
-      <img src="src/imagens/pokebola.png" alt="pokebola" />
-      <h1>MapaDev Week</h1>
+    <header class="cabecalho">
+      <img src="src/imagens/pokebola.png" alt="pokebola" class="pokebola" />
+      <h1 class="titulo">MapaDev Week</h1>
     </header>
 
-    <main>
-      <button>
+    <main class="pokemon-slider">
+      <button class="btn-seta btn-voltar">
         <img src="src/imagens/seta.png" alt="setavoltar" />
       </button>
 
-      <ul>
+      <ul class="lista-pokemons">
         <li>
           <div>
             <h2>Pikachu</h2>
@@ -87,7 +88,7 @@
         </li>
       </ul>
 
-      <button>
+      <button class="btn-seta">
         <img src="src/imagens/seta.png" alt="setaavançar" />
       </button>
     </main>
